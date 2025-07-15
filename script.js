@@ -9,7 +9,7 @@ document.getElementById("userForm").addEventListener("submit", async function (e
     age: form.age.value,
   };
 
-  const response = await fetch("https://hr09cjakbc.execute-api.eu-north-1.amazonaws.comhttps://e98mw97be1.execute-api.eu-north-1.amazonaws.com/submit", {
+  const response = await fetch("https://e98mw97be1.execute-api.eu-north-1.amazonaws.com/submit", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
